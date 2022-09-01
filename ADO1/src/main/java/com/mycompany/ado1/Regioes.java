@@ -8,7 +8,8 @@ import java.util.ArrayList;
  */
 public class Regioes {
 
-    private String nome;
+    private String[] estado;
+    private double[] pibTotal;
     private ArrayList<Estados> lista = new ArrayList<Estados>();
     private Estados es;
     private static int contador = 0;
@@ -27,14 +28,6 @@ public class Regioes {
 
     public double conta(double pib, double total) {
         return (pib * 100) / total;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
     }
 
     public ArrayList<Estados> getLista() {

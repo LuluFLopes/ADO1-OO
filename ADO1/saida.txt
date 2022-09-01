@@ -1,2 +1,5 @@
-pib da regiao X = $$$$
-pib da regiao Y = $$$$
+pib da região norte = 221.5
+pib da região nordeste = 551.0
+pib da região sul = 671.0
+pib da região sudeste = 2294.0
+pib da região centro-oeste = 395.0

@@ -10,4 +10,5 @@
         <maven.compiler.target>18</maven.compiler.target>
         <exec.mainClass>com.mycompany.ado1.ADO1</exec.mainClass>
     </properties>
+    <name>ADO1</name>
 </project>

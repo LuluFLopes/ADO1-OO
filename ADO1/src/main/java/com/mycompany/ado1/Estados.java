@@ -6,11 +6,19 @@ package com.mycompany.ado1;
  */
 public class Estados {
 
-    private String nome;
+    private String estado;
     private double pib;
     private double percentual;
     private String regiao;
 
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+    
     public String getRegiao() {
         return regiao;
     }
@@ -28,11 +36,11 @@ public class Estados {
     }
 
     public String getNome() {
-        return nome;
+        return estado;
     }
 
     public void setNome(String nome) {
-        this.nome = nome;
+        this.estado = nome;
     }
 
     public double getPib() {
